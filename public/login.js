@@ -9,7 +9,7 @@ function handleLogin(event)
 
     const user={
         email:email,
-        password:password,
+     
     }
     console.log(user);
     axios.post('http://localhost:5000/user/login',user)
